@@ -28,3 +28,6 @@ function ThemeBtn() {
 }
 
 export default ThemeBtn;
+
+//in case of toggling theme, remember to change the config in tailwind.config.js file
+//make it to darkMode: "class".
