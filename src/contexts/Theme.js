@@ -10,6 +10,8 @@ export const ThemeContext = createContext({
     lightTheme: () => {},
     //these two are the simple methods, as we know whenever we call these methods, they
     //will work as they have access of the global functions.
+    //one thing also to remember that here we have only declared the function
+    //but haven't given the functionality.
 })
 
 export const ThemeProvider = ThemeContext.Provider
